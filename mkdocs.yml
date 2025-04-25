@@ -76,21 +76,14 @@ extra:
 
 nav:
   - 前言: "index.md"
-  - 如何使用这本书: "使用指南.md"
-  - 一个嵌入式开发学习规划: "CS学习规划.md"
-  - 必学工具:
-      - 翻墙: "必学工具/翻墙.md"
-      - Vim: "必学工具/Vim.md"
-      - Emacs: "必学工具/Emacs.md"
-      - Git: "必学工具/Git.md"
-      - GitHub: "必学工具/GitHub.md"
-      - "GNU Make": "必学工具/GNU_Make.md"
-      - CMake: "必学工具/CMake.md"
-      - LaTeX: "必学工具/LaTeX.md"
-      - Docker: "必学工具/Docker.md"
-      - Scoop: "必学工具/Scoop.md"
-      - 日常学习工作流: "必学工具/workflow.md"
-      - 实用工具箱: "必学工具/tools.md"
-      - 毕业论文: "必学工具/thesis.md"
-      - 信息检索: "必学工具/信息检索.md"
-  - 好书推荐: "好书推荐.md"
+  - 学习规划: "学习规划.md"
+  - 工具:
+      - 必学:
+          - 信息检索: "工具/必学/信息检索.md"
+          - VPN: "工具/必学/VPN.md"
+          - GitHub: "工具/必学/GitHub.md"
+          - GitHub Desktop: "工具/必学/GitHub Desktop.md"
+      - 选学:  
+          - Git: "工具/选学/Git.md"
+          - 实用工具箱: "工具/选学/tools.md"
+  - 课程推荐:
