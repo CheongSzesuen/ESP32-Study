@@ -1,13 +1,13 @@
 site_name: CS自学指南
-site_url: https://csdiy.wiki/
-site_author: PKUFlyingPig
+site_url: https://cheongszesuen.github.io/ESP32-Study/
+site_author: CheongSzesuen
 site_description: >-
-  CS自学指南
+  ESP32学习指南，包含ESP32的基础知识、编程语言、开发工具、应用案例等内容，帮助读者快速入门ESP32开发。
 
-repo_name: cs-self-learning
-repo_url: https://github.com/pkuflyingpig/cs-self-learning/
+repo_name: ESP32-Study
+repo_url: https://github.com/CheongSzesuen/ESP32-Study
 
-copyright: Copyright &copy; 2021-present <a href="https://github.com/PKUFlyingPig" target="_blank" rel="noopener noreferrer">PKUFlyingPig</a>
+copyright: Copyright &copy; 2021-present <a href="https://github.com/CheongSzesuen" target="_blank" rel="noopener noreferrer">CheongSzesuen</a>
 
 theme:
   name: material
