@@ -75,7 +75,7 @@ extra:
     property: G-3TQYE4M5B9
 
 nav:
-  - 前言: "index.md"
+  - 前言: "preface.md"
   - 学习规划: "学习规划.md"
   - 工具:
       - 必学:
