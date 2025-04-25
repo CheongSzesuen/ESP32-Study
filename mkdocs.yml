@@ -1,8 +1,8 @@
-site_name: CS自学指南
+site_name: ESP32学习
 site_url: https://cheongszesuen.github.io/ESP32-Study/
 site_author: CheongSzesuen
 site_description: >-
-  ESP32学习指南，包含ESP32的基础知识、编程语言、开发工具、应用案例等内容，帮助读者快速入门ESP32开发。
+  ESP32学习指南
 
 repo_name: ESP32-Study
 repo_url: https://github.com/CheongSzesuen/ESP32-Study
@@ -86,4 +86,4 @@ nav:
       - 选学:  
           - Git: "工具/选学/Git.md"
           - 实用工具箱: "工具/选学/tools.md"
-  - 课程推荐:
+  - 课程推荐: “Course.md”
