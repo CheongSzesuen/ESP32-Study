@@ -10,14 +10,28 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # 检出代码
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
 
+      # 设置 Python 环境
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
 
+      # 安装依赖
       - run: pip3 install -U -r requirements.txt
       - run: pip install mkdocs-material
+
+      # 确保 gh-pages 分支存在
+      - run: |
+          if ! git ls-remote --exit-code origin gh-pages; then
+            git checkout --orphan gh-pages
+            git rm -rf .
+            git commit --allow-empty -m "Initial commit for GitHub Pages"
+            git push origin gh-pages
+          fi
+
+      # 部署到 GitHub Pages
       - run: mkdocs gh-deploy --force
