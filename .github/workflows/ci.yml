@@ -21,7 +21,7 @@ jobs:
           python-version: 3.x
 
       # 安装依赖
-      - run: pip3 install -U -r [requirements.txt](http://_vscodecontentref_/1)
+      - run: pip3 install -U -r requirements.txt
       - run: pip install mkdocs-material
 
       # 确保 gh-pages 分支存在
