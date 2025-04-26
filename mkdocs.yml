@@ -78,11 +78,11 @@ nav:
   - 前言: "index.md"
   - 学习规划: "学习规划.md"
   - 工具:
-        - 信息检索: "工具/必学/信息检索.md"
-        - VPN: "工具/必学/VPN.md"
-        - GitHub: "工具/必学/GitHub.md"
-        - GitHub Desktop: "工具/必学/GitHub Desktop.md" 
-        - Git: "工具/选学/Git.md"
-        - 实用工具箱: "工具/选学/tools.md"
+        - 信息检索: "工具//信息检索.md"
+        - VPN: "工具/VPN.md"
+        - GitHub: "工具/GitHub.md"
+        - GitHub Desktop: "工具/GitHub Desktop.md" 
+        - Git: "工具/Git.md"
+        - 实用工具箱: "工具/tools.md"
   - 课程推荐: “Course.md”
   - 点灯: "点亮LED.md"
